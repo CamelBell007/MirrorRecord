@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    		xmlns:android="http://schemas.android.com/apk/res/android" 
+    		xmlns:tools="http://schemas.android.com/tools"
+        	android:layout_width="fill_parent"  
+        	android:layout_height="fill_parent"
+        	android:id="@+id/line_man_extend"  
+        	android:background="#1ccccc"
+        	android:orientation="vertical" >
+        	
+               <TextView
+       				android:layout_width="fill_parent"
+        			android:layout_height="wrap_content"
+        			android:layout_marginLeft="5dp"
+
+        			android:textSize="16sp"
+        			android:textColor="#ff0000"
+        			android:textStyle="bold"
+        			android:text="@string/txt_ex_system"/>
+            	<!-- 结点选 择 -->
+            	<Spinner    
+        			android:id="@+id/spinner_soc"    
+        			android:layout_width="fill_parent"    
+        			android:layout_height="wrap_content"
+        			android:layout_marginRight="5dp"
+        			android:layout_marginLeft="5dp"
+        			android:entries="@array/SOC">
+    			</Spinner>
+                 		
+
+            	 <!-- window job -->
+               <TextView
+       				android:layout_width="fill_parent"
+        			android:layout_height="wrap_content"
+        			android:layout_marginLeft="5dp"
+        			android:textSize="16sp"
+        			android:textColor="#ff0000"
+        			android:textStyle="bold"
+        			android:text="@string/txt_ex_db"/>
+                
+               <ToggleButton
+                        android:id="@+id/button_bd"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:typeface="monospace"
+                        android:textStyle="bold"
+                        android:layout_marginRight="5dp"
+            			android:layout_marginLeft="5dp"
+            			android:onClick="extpend_do"
+                        android:textOn="@string/txt_bd_on"
+                        android:textOff="@string/txt_bd_off" /> 
+                        
+               	 <!-- window job -->
+               <TextView
+       				android:layout_width="fill_parent"
+        			android:layout_height="wrap_content"
+        			android:layout_marginLeft="5dp"
+        			android:textSize="16sp"
+        			android:textColor="#ff0000"
+        			android:textStyle="bold"
+        			android:text="@string/txt_ex_915m"/>
+                
+               <ToggleButton
+                        android:id="@+id/button_915m"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:typeface="monospace"
+                        android:textStyle="bold"
+                        android:layout_marginRight="5dp"
+            			android:layout_marginLeft="5dp"
+            			android:onClick="extpend_do"
+                        android:textOn="@string/txt_bd_on"
+                        android:textOff="@string/txt_bd_off" /> 
+            	 
+            	<!-- 打开关闭安钮 --> 
+            	<TextView
+       				android:layout_width="fill_parent"
+        			android:layout_height="wrap_content"
+        			android:textSize="16sp"
+        			android:textColor="#ff0000"
+        			android:textStyle="bold"
+        			android:layout_marginRight="5dp"
+            		android:layout_marginLeft="5dp"
+        			android:text="@string/txt_ext_ir"/>
+            	
+            	<ToggleButton
+                        android:id="@+id/button_ir"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:typeface="monospace"
+                        android:textStyle="bold"
+                        android:layout_marginRight="5dp"
+            			android:layout_marginLeft="5dp"
+            			android:onClick="extpend_do"
+                        android:textOn="@string/txt_ir_on"
+                        android:textOff="@string/txt_ir_off" />
+            	 
+</LinearLayout>

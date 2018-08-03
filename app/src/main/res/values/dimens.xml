@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_content_love_text_margin_left">-60px</dimen>
+    <dimen name="activity_content_love_text_margin_bottom">15px</dimen>
+    <dimen name="activity_content_love_height">135px</dimen>
+    <dimen name="activity_content_love_width">156px</dimen>
+    <dimen name="activity_content_icon_normal_size">138px</dimen>
+    <dimen name="activity_content_textview_contentname_width_size">570px</dimen>
+    <dimen name="activity_content_textview_mark_margin_bottom">60px</dimen>
+ 	 <dimen name="activity_content_textview_contentname_textsize">56px</dimen>
+ 	 <dimen name="activity_content_textview_love_textsize">30px</dimen>
+</resources>

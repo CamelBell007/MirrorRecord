@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="baud">
+        <item>200</item>
+        <item>300</item>
+        <item>600</item>
+        <item>1200</item>
+        <item>1800</item>
+        <item>2400</item>
+        <item>4800</item>
+        <item>9600</item>
+        <item>19200</item>
+        <item>38400</item>
+        <item>57600</item>
+        <item>115200</item>
+        <item>230400</item>
+        <item>460800</item>
+        <item>500000</item>
+        <item>576000</item>
+        <item>921600</item>
+        <item>1000000</item>
+        <item>1152000</item>
+    </string-array>
+    
+    <string-array name="display">
+        <item>HEX</item>
+        <item>ASCII</item>
+        <item>HEX(fast)</item>
+        <item>ASCII(fast)</item>
+    </string-array>
+    
+    <string-array name="index">
+        <item>ttyS0</item>
+        <item>ttyS1</item>
+        <item>ttyS2</item>
+        <item>ttyS3</item>
+        <item>ttyMT0</item>
+        <item>ttyMT1</item>
+        <item>ttyMT2</item>
+        <item>ttyMT3</item>
+        <item>ttyUSB0</item>
+        <item>ttyUSB1</item>
+        <item>ttyUSB2</item>
+        <item>ttyUSB3</item>
+        <item>ttyCOM0</item>
+        <item>ttyCOM1</item>
+        <item>ttyCOM2</item>
+        <item>ttyCOM3</item>
+        <item>ttyACM0</item>
+        <item>ttyACM1</item>
+        <item>ttyACM2</item>
+        <item>ttyACM3</item>
+    </string-array>
+    
+    <string-array name="gpio_operate">
+        <item>底</item>
+        <item>高</item>
+    </string-array>
+    
+    <string-array name="gpio_group">
+        <item>Bank A</item>
+        <item>Bank B</item>
+        <item>Bank C</item>
+        <item>Bank D</item>
+        <item>Bank E</item>
+        <item>Bank X</item>
+        <item>Bank Y</item>
+        <item>Bank Z</item>
+        <item>Bank AO</item>
+    </string-array>
+    
+    <string-array name="gpio_num">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+    </string-array>
+    
+    <string-array name="SOC">
+        <item>Rockchip</item>
+        <item>MTK</item>
+    </string-array>
+</resources>

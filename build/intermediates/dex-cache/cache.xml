@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\i-nigmaSdk\RecordApp\app\libs\YohoUtils.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="2f43086f3b8c03d88eaaaccc896c4b6c55a99294">
+        <dex dex="E:\i-nigmaSdk\RecordApp\app\build\intermediates\pre-dexed\debug\YohoUtils_0fa5a065bda1199bd6a7ad1270b53a19a08888c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\i-nigmaSdk\RecordApp\app\libs\core.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="96b67e377ff4637ff1fa3bbe9ad7183773935f39">
+        <dex dex="E:\i-nigmaSdk\RecordApp\app\build\intermediates\pre-dexed\debug\core_22e8f075192f7920530228710797fa782a4dab82.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\i-nigmaSdk\RecordApp\app\libs\EmdoorAPI.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="137341e289827f097733988fa836ccf86fcf8a00">
+        <dex dex="E:\i-nigmaSdk\RecordApp\app\build\intermediates\pre-dexed\debug\EmdoorAPI_19ee4b06572ea68f34fc9543a161a0ed40880498.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\i-nigmaSdk\RecordApp\app\libs\jxl.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="a6f224353653001716448dec51065d050ac782b7">
+        <dex dex="E:\i-nigmaSdk\RecordApp\app\build\intermediates\pre-dexed\debug\jxl_d86e49a1c354e8405020b8c50339da9081553a4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\i-nigmaSdk\RecordApp\app\libs\android-support-v4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4">
+        <dex dex="E:\i-nigmaSdk\RecordApp\app\build\intermediates\pre-dexed\debug\android-support-v4_c949aeb35beaaa8193d7d7ad969ec730559206f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\f50f5184b90f80083b4e0d7ddb0fadac59b30482\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="5c2ecf9444d5dd7e2625261668ed1eed211fbf90">
+        <dex dex="E:\i-nigmaSdk\RecordApp\app\build\intermediates\pre-dexed\debug\classes_bb4e2f725e96fa1a46ee36c7849a6f2d53f862fd.jar" />
+    </item>
+
+</items>

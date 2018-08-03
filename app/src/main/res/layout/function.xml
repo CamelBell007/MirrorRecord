@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    		xmlns:android="http://schemas.android.com/apk/res/android" 
+    		xmlns:tools="http://schemas.android.com/tools"
+        	android:layout_width="fill_parent"  
+        	android:layout_height="fill_parent"  
+        	android:background="#cccccc"
+        	android:orientation="vertical" >
+        	
+               <TextView
+       				android:layout_width="fill_parent"
+        			android:layout_height="wrap_content"
+        			android:layout_marginLeft="5dp"
+        			android:layout_weight="1"
+        			android:textSize="16sp"
+        			android:textColor="#ff0000"
+        			android:textStyle="bold"
+        			android:text="@string/txt_d_index"/>
+            	<!-- 结点选 择 -->
+            	<Spinner    
+        			android:id="@+id/spinner_node"    
+        			android:layout_width="fill_parent"    
+        			android:layout_height="wrap_content"
+        			android:layout_marginRight="5dp"
+        			android:layout_marginLeft="5dp"
+        			android:layout_weight="1"
+        			android:entries="@array/index">
+    			</Spinner>
+                 		
+            	<TextView
+       				android:layout_width="fill_parent"
+        			android:layout_height="wrap_content"
+        			android:layout_marginLeft="5dp"
+        			android:layout_weight="1"
+        			android:textSize="16sp"
+        			android:textColor="#ff0000"
+        			android:textStyle="bold"
+        			android:text="@string/txt_d_baud"/>
+            	
+            	<Spinner    
+        			android:id="@+id/spinner_baud"    
+        			android:layout_width="fill_parent"    
+        			android:layout_height="wrap_content"
+        			android:layout_marginRight="5dp"
+        			android:layout_marginLeft="5dp"
+        			android:layout_weight="1"
+        			android:entries="@array/baud">    
+    			</Spinner>
+    			
+				<!--十六进制选制 -->  
+			   <TextView
+       				android:layout_width="fill_parent"
+        			android:layout_height="wrap_content"
+        			android:layout_marginLeft="5dp"
+        			android:layout_weight="1"
+        			android:textSize="16sp"
+        			android:textColor="#ff0000"
+        			android:textStyle="bold"
+        			android:text="@string/txt_d_hex"/>
+				<Spinner    
+        			android:id="@+id/spinner_display"    
+        			android:layout_width="fill_parent"    
+        			android:layout_height="wrap_content"
+        			android:layout_marginRight="5dp"
+        			android:layout_marginLeft="5dp"
+        			android:layout_weight="1"
+        			android:entries="@array/display">    
+    			</Spinner>    	
+ 
+            	<!-- status -->            	            	
+            	<TextView
+       				android:layout_width="fill_parent"
+        			android:layout_height="wrap_content"
+        			android:layout_marginLeft="5dp"
+        			android:textSize="16sp"
+        			android:layout_weight="1"
+        			android:textColor="#ff0000"
+        			android:textStyle="bold"
+        			android:text="@string/txt_d_st"/>
+            	
+            	<TextView
+            	    android:id="@+id/text_st_tx"
+       				android:layout_width="fill_parent"
+        			android:layout_height="wrap_content"
+        			android:layout_marginLeft="5dp"
+        			android:layout_weight="1"
+        			android:textColor="#000000"
+        			android:text="@string/txt_d_st_tx"/>
+            	
+            	<TextView
+            	    android:id="@+id/text_st_rx"
+       				android:layout_width="fill_parent"
+        			android:layout_height="wrap_content"
+        			android:layout_marginLeft="5dp"
+        			android:layout_weight="1"
+        			android:textColor="#000000"
+        			android:text="@string/txt_d_st_rx"/>
+                	
+            	 <!-- window job -->
+               <TextView
+       				android:layout_width="fill_parent"
+        			android:layout_height="wrap_content"
+        			android:layout_marginLeft="5dp"
+        			android:textSize="16sp"
+        			android:layout_weight="1"
+        			android:textColor="#ff0000"
+        			android:textStyle="bold"
+        			android:text="@string/txt_d_windows"/>
+                      	
+            	<Button   
+            		android:id="@+id/button_clean"  
+            		android:layout_width="fill_parent"  
+            		android:layout_height="wrap_content" 
+            		android:layout_marginRight="5dp"
+            		android:layout_marginLeft="5dp"
+            		android:textSize="20sp"
+            		android:layout_weight="1"
+            		android:textStyle="bold"
+            		android:text="@string/button_clean"/>
+        		
+            	 <Button   
+            		android:id="@+id/button_save"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:layout_marginRight="5dp"
+            		android:textStyle="bold"
+            		android:layout_weight="1"
+            		android:textSize="20sp"
+            		android:layout_marginLeft="5dp"
+            		android:text="@string/button_save"/>
+            	 
+            	 
+            	<!-- 打开关闭安钮 --> 
+            	<TextView
+       				android:layout_width="fill_parent"
+        			android:layout_height="wrap_content"
+        			android:layout_marginLeft="5dp"
+        			android:textSize="16sp"
+        			android:textColor="#ff0000"
+        			android:layout_weight="1"
+        			android:textStyle="bold"
+        			android:text="@string/txt_d_open"/>
+            	 <Button   
+            		android:id="@+id/button_open"  
+            		android:layout_width="fill_parent"  
+            		android:layout_height="wrap_content" 
+            		android:layout_marginRight="5dp"
+            		android:layout_weight="1"
+            		android:layout_marginLeft="5dp"
+            		android:textSize="20sp"
+            		android:textStyle="bold"
+            		android:text="@string/button_open"/>
+            	 
+            	 <Button   
+            		android:id="@+id/button_close"  
+            		android:layout_width="fill_parent"  
+            		android:layout_height="wrap_content" 
+            		android:layout_marginRight="5dp"
+            		android:layout_weight="1"
+            		android:layout_marginLeft="5dp"
+            		android:textSize="20sp"
+            		android:textStyle="bold"
+            		android:text="@string/button_close"/>
+</LinearLayout>

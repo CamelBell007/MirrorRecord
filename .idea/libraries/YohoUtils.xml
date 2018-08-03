@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="YohoUtils">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/YohoUtils.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="EmdoorAPI">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/EmdoorAPI.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
