@@ -2049,6 +2049,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RecordApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RecordApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -2075,11 +2085,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\i-nigmaSdk\RecordApp" />
       <recent name="E:\i-nigmaSdk\RecordApp\app\lib" />
       <recent name="E:\i-nigmaSdk\RecordApp\app\libs\armeabi-v7a" />
       <recent name="E:\i-nigmaSdk\RecordApp\app\libs" />
       <recent name="E:\i-nigmaSdk\reference_app_AS\app\src\main\java\com\camelbell\jobrecord\utils" />
-      <recent name="E:\i-nigmaSdk_7443398_JNShipYard_China_Android_4_02_AS_ref_app\reference_app_AS\app\libs" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.app">
